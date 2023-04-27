@@ -36,7 +36,7 @@ for (const folder of commandFolders) {
 client.once(Events.ClientReady, async () => {
   console.log(`[+] Connected to Discord as ${client.user?.tag}`)
   client.user?.setPresence({
-    activities: [{ name: '/help', type: 0 }],
+    activities: [{ name: 'politics', type: 0 }],
     status: 'online',
   })
 })
